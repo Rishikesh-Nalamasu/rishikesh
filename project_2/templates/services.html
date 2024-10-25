@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{%block content%}
+
+    <section id="services">
+        {% for i in serviceData %}
+        <h1> {{i.service_title}} </h1>
+        {% endfor %}
+        
+    </section>
+
+{%endblock%}
